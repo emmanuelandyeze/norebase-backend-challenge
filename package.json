@@ -1,0 +1,19 @@
+{
+  "name": "norebase-backend-challenge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Emmanuel Eze",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7"
+  }
+}
